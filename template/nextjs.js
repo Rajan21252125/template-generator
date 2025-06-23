@@ -1,4 +1,4 @@
-import run from "../utility/runCommand.js";
+import run from "../utils/runCommand.js";
 import fs from "fs";
 import path from "path";
 

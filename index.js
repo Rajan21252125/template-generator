@@ -1,11 +1,11 @@
 import inquirer from "inquirer";
 import path from "path";
-import reactBoilerPlate from "./boilerPlate/react-boilerplate.js";
-import nextBoilerplate from "./boilerPlate/next-boiler-plate.js";
-import reactNativeBoilerPlate from "./boilerPlate/react-native-boiler-plate.js";
-import isGitHubCLIInstalled from "./utility/isGitHubCLIInstalled.js";
-import intitilizeGitHubRepo from "./github/githubRepo.js";
-import openInVSCode from "./utility/openInVsCode.js";
+import reactBoilerPlate from "./template/react-vite.js";
+import nextBoilerplate from "./template/nextjs.js";
+import reactNativeBoilerPlate from "./template/react-native.js";
+import isGitHubCLIInstalled from "./utils/isGitHubCLIInstalled.js";
+import intitilizeGitHubRepo from "./github/initRepo.js";
+import openInVSCode from "./utils/openVSCode.js";
 
 const init = async () => {
   const { location } = await inquirer.prompt([
@@ -32,10 +32,10 @@ const init = async () => {
       type: "list",
       message: "Which project do you want to create?",
       choices: [
-        "React App using Vite",
-        "Next.js App",
-        "React Native App",
-        "HTML/CSS/JS App"
+        "React JS",
+        "Next.js",
+        "React Native",
+        "HTML/CSS/JS"
       ],
       default: "React App using Vite",
     },

@@ -118,7 +118,10 @@ script-for-boilerplate/
 
 ## 📸 Screenshots (Optional)
 
-> Add screenshots or a GIF showing the CLI in action here.
+![Working of project](./assets/image.png)
+![Working of project](./assets/image-1.png)
+![Working of project](./assets/image-2.png)
+
 
 ---
 
@@ -127,14 +130,3 @@ script-for-boilerplate/
 We welcome contributions! Feel free to open issues, submit PRs, or suggest new features.
 
 ---
-
-## 📄 License
-
-MIT License © 2025 \[Your Name]
-
-```
-
----
-
-Let me know if you'd like a version of this file dynamically generated with real project data, a license badge, or GitHub actions included!
-```

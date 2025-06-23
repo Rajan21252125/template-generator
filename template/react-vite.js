@@ -1,5 +1,5 @@
 import fs from "fs";
-import run from "../utility/runCommand.js";
+import run from "../utils/runCommand.js";
 import path from "path";
 import inquirer from "inquirer";
 
